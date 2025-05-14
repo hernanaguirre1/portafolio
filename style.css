@@ -139,7 +139,6 @@ p {
     }
 }
 /* HEADER */
-
 .header {
     display: flex;
     justify-content: space-around;
@@ -149,6 +148,18 @@ p {
     top: 0;
     z-index: 998;
     width: 100%;
+    animation: header .8s ease;
+    animation-delay: 400ms;
+}
+@keyframes header {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .logo {
     font-family: var(--titulos);
