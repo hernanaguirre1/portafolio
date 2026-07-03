@@ -140,6 +140,7 @@ p {
 }
 /* HEADER */
 .header {
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -345,15 +346,15 @@ header.hidden {
     display: flex;
     gap: 20px;
 }
-.sobre-mi  img {
+.sobre-mi img {
     width: 250px;
     height: 250px;
     box-shadow: -10px -10px 0 var(--elementos-color);
-    transition: .4s ease-in-out;
+    transition: all .3s ease;
 }
 .sobre-mi img:hover {
+    transition: all .3s ease;
     box-shadow: 15px 15px 0 var(--elementos-color);
-    transform: translateX(-15px) translateY(-15px);
 }
 .sobre-mi-descripcion {
     font-size: 1rem;
